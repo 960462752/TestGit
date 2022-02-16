@@ -13,6 +13,9 @@
 #include <lk/console_cmd.h>
 #include <kernel/thread.h>
 
+
+//test
+
 extern const struct app_descriptor __start_apps __WEAK;
 extern const struct app_descriptor __stop_apps __WEAK;
 
