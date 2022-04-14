@@ -42,7 +42,7 @@ void apps_init(void) {
     test = test+1;
 
     /*this is the main commit*/
-    test = test+1;
+    test = test+3;
 
     /*this is the local commit*/
     test = test+2;
