@@ -36,6 +36,8 @@ static void start_app(const struct app_descriptor *app, bool detach);
 /* one time setup */
 void apps_init(void) {
     const struct app_descriptor *app;
+    /*this is the main commit*/
+    test = test+1;
 
     /* call all the init routines */
     for (app = &__start_apps; app != &__stop_apps; app++) {
