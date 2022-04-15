@@ -44,6 +44,7 @@ void apps_init(void) {
     /*this is the local commit*/
     test = test+2;
     //tt test
+    //ttmain
 
     /* call all the init routines */
     for (app = &__start_apps; app != &__stop_apps; app++) {
